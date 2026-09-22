@@ -1,4 +1,5 @@
 # Bugema Linux
+<img width="1774" height="887" alt="final logo" src="https://github.com/user-attachments/assets/86ac2847-2e5c-4f48-9a3a-c03a1f51659f" />
 
 **An open-source Linux distribution developed by Bugema University for teaching, learning, research, innovation, and institutional computing.**
 
