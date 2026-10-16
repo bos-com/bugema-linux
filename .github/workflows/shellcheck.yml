@@ -1,0 +1,39 @@
+name: ShellScript Linting & Syntax Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  shellcheck:
+    name: Run ShellCheck & Syntax Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install ShellCheck
+        run: sudo apt-get update && sudo apt-get install -y shellcheck
+
+      - name: Run Syntax Check (bash -n)
+        run: |
+          echo "Checking syntax for all .sh files..."
+          find . -type f -name "*.sh" -not -path "*/.*" -exec bash -n {} +
+
+      - name: Run ShellCheck Linting
+        run: |
+          echo "Running ShellCheck on all .sh files..."
+          find . -type f -name "*.sh" -not -path "*/.*" -exec shellcheck {} +
+
+      - name: Smoke Test Scripts (--help test)
+        run: |
+          echo "Running smoke tests for scripts supporting --help..."
+          for script in $(find scripts -type f -name "*.sh" 2>/dev/null); do
+            if grep -q "\-\-help" "$script"; then
+              echo "Executing smoke test: $script --help"
+              bash "$script" --help
+            fi
+          done
