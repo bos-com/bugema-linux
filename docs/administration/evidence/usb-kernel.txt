@@ -1,0 +1,852 @@
+Oct 25 11:34:41 <redacted> kernel: ACPI: SSDT 0x000000006173F000 0010C0 (v02 DELL   UsbCTabl 00001000 INTL 20200717)
+Oct 25 11:34:41 <redacted> kernel: ACPI: bus type USB registered
+Oct 25 11:34:41 <redacted> kernel: usbcore: registered new interface driver usbfs
+Oct 25 11:34:41 <redacted> kernel: usbcore: registered new interface driver hub
+Oct 25 11:34:41 <redacted> kernel: usbcore: registered new device driver usb
+Oct 25 11:34:41 <redacted> kernel: xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+Oct 25 11:34:41 <redacted> kernel: xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+Oct 25 11:34:41 <redacted> kernel: xhci_hcd 0000:00:14.0: Host supports USB 3.2 Enhanced SuperSpeed
+Oct 25 11:34:41 <redacted> kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 7.00
+Oct 25 11:34:41 <redacted> kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 25 11:34:41 <redacted> kernel: usb usb1: Product: xHCI Host Controller
+Oct 25 11:34:41 <redacted> kernel: usb usb1: Manufacturer: Linux 7.0.0-38-generic xhci-hcd
+Oct 25 11:34:41 <redacted> kernel: usb usb1: SerialNumber: 0000:00:14.0
+Oct 25 11:34:41 <redacted> kernel: hub 1-0:1.0: USB hub found
+Oct 25 11:34:41 <redacted> kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 7.00
+Oct 25 11:34:41 <redacted> kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 25 11:34:41 <redacted> kernel: usb usb2: Product: xHCI Host Controller
+Oct 25 11:34:41 <redacted> kernel: usb usb2: Manufacturer: Linux 7.0.0-38-generic xhci-hcd
+Oct 25 11:34:41 <redacted> kernel: usb usb2: SerialNumber: 0000:00:14.0
+Oct 25 11:34:41 <redacted> kernel: hub 2-0:1.0: USB hub found
+Oct 25 11:34:42 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:34:43 <redacted> kernel: usb 1-1: new high-speed USB device number 3 using xhci_hcd
+Oct 25 11:34:44 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:34:44 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:34:44 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:34:44 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:34:44 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:34:44 <redacted> kernel: usb 1-7: new low-speed USB device number 4 using xhci_hcd
+Oct 25 11:34:44 <redacted> kernel: usb 1-7: New USB device found, idVendor=413c, idProduct=2113, bcdDevice= 1.10
+Oct 25 11:34:44 <redacted> kernel: usb 1-7: New USB device strings: Mfr=0, Product=2, SerialNumber=0
+Oct 25 11:34:44 <redacted> kernel: usb 1-7: Product: Dell KB216 Wired Keyboard
+Oct 25 11:34:44 <redacted> kernel: usb 1-8: new low-speed USB device number 5 using xhci_hcd
+Oct 25 11:34:44 <redacted> kernel: usb 1-8: New USB device found, idVendor=413c, idProduct=301a, bcdDevice= 1.00
+Oct 25 11:34:44 <redacted> kernel: usb 1-8: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct 25 11:34:44 <redacted> kernel: usb 1-8: Product: Dell MS116 USB Optical Mouse
+Oct 25 11:34:44 <redacted> kernel: usb 1-8: Manufacturer: PixArt
+Oct 25 11:34:44 <redacted> kernel: usb 1-1: USB disconnect, device number 3
+Oct 25 11:34:45 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:34:46 <redacted> kernel: usb 1-1: new high-speed USB device number 7 using xhci_hcd
+Oct 25 11:34:47 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:34:47 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:34:47 <redacted> kernel: usb 1-1: new high-speed USB device number 8 using xhci_hcd
+Oct 25 11:34:47 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:34:47 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:34:47 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:34:47 <redacted> kernel: usb 1-1: can't set config #1, error -71
+Oct 25 11:34:47 <redacted> kernel: usbcore: registered new interface driver usbhid
+Oct 25 11:34:47 <redacted> kernel: usbhid: USB HID core driver
+Oct 25 11:34:47 <redacted> kernel: input: Dell KB216 Wired Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/0003:413C:2113.0001/input/input2
+Oct 25 11:34:47 <redacted> kernel: hid-generic 0003:413C:2113.0001: input,hidraw0: USB HID v1.11 Keyboard [Dell KB216 Wired Keyboard] on usb-0000:00:14.0-7/input0
+Oct 25 11:34:47 <redacted> kernel: input: Dell KB216 Wired Keyboard System Control as /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.1/0003:413C:2113.0002/input/input3
+Oct 25 11:34:48 <redacted> kernel: input: Dell KB216 Wired Keyboard Consumer Control as /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.1/0003:413C:2113.0002/input/input4
+Oct 25 11:34:48 <redacted> kernel: hid-generic 0003:413C:2113.0002: input,hidraw1: USB HID v1.11 Device [Dell KB216 Wired Keyboard] on usb-0000:00:14.0-7/input1
+Oct 25 11:34:48 <redacted> kernel: input: PixArt Dell MS116 USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:413C:301A.0003/input/input5
+Oct 25 11:34:48 <redacted> kernel: hid-generic 0003:413C:301A.0003: input,hidraw2: USB HID v1.11 Mouse [PixArt Dell MS116 USB Optical Mouse] on usb-0000:00:14.0-8/input0
+Oct 25 11:34:48 <redacted> kernel: usb 1-1: USB disconnect, device number 8
+Oct 25 11:34:49 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:34:50 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:34:50 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:34:51 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:34:52 <redacted> kernel: usb 1-1: new high-speed USB device number 12 using xhci_hcd
+Oct 25 11:34:52 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:34:52 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:34:52 <redacted> kernel: usb 1-1: device not accepting address 12, error -71
+Oct 25 11:34:52 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:34:52 <redacted> kernel: usb 1-1: new high-speed USB device number 13 using xhci_hcd
+Oct 25 11:34:53 <redacted> kernel: usb 1-1: device descriptor read/64, error -71
+Oct 25 11:34:54 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:34:54 <redacted> kernel: usb 1-1: new high-speed USB device number 14 using xhci_hcd
+Oct 25 11:34:55 <redacted> kernel: usb 1-1: device descriptor read/64, error -71
+Oct 25 11:34:55 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:34:55 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:34:55 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:34:55 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:34:55 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:34:56 <redacted> kernel: usb 1-1: USB disconnect, device number 14
+Oct 25 11:34:57 <redacted> kernel: usb 1-1: new high-speed USB device number 15 using xhci_hcd
+Oct 25 11:34:57 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:34:57 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:34:57 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:34:57 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:34:57 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:34:57 <redacted> kernel: usb 1-1: USB disconnect, device number 15
+Oct 25 11:34:58 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:34:59 <redacted> kernel: usb 1-1: new high-speed USB device number 17 using xhci_hcd
+Oct 25 11:35:01 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:01 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:35:02 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:02 <redacted> kernel: usb 1-1: new high-speed USB device number 19 using xhci_hcd
+Oct 25 11:35:02 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:35:02 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:35:02 <redacted> kernel: usb 1-1: device not accepting address 19, error -71
+Oct 25 11:35:02 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:35:03 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:03 <redacted> kernel: usb 1-1: new high-speed USB device number 21 using xhci_hcd
+Oct 25 11:35:04 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:35:04 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:35:04 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:35:04 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:35:04 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:35:04 <redacted> kernel: usb 1-1: USB disconnect, device number 21
+Oct 25 11:35:05 <redacted> kernel: usb 1-1: new high-speed USB device number 22 using xhci_hcd
+Oct 25 11:35:05 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:35:05 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:35:05 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:35:05 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:35:05 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:35:05 <redacted> kernel: usb 1-1: USB disconnect, device number 22
+Oct 25 11:35:06 <redacted> kernel: usb 1-1: new high-speed USB device number 23 using xhci_hcd
+Oct 25 11:35:07 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:35:07 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:35:07 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:35:07 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:35:07 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:35:09 <redacted> kernel: usb 1-1: USB disconnect, device number 23
+Oct 25 11:35:09 <redacted> kernel: usb 1-1: new high-speed USB device number 24 using xhci_hcd
+Oct 25 11:35:10 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:35:10 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:35:10 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:35:10 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:35:10 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:35:14 <redacted> kernel: usb 1-1: USB disconnect, device number 24
+Oct 25 11:35:15 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:16 <redacted> kernel: usb 1-1: new high-speed USB device number 26 using xhci_hcd
+Oct 25 11:35:17 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:17 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:35:18 <redacted> kernel: usb 1-1: new high-speed USB device number 27 using xhci_hcd
+Oct 25 11:35:18 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:35:18 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:35:18 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:35:18 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:35:18 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:35:18 <redacted> kernel: usb 1-1: USB disconnect, device number 27
+Oct 25 11:35:19 <redacted> kernel: usb 1-1: new high-speed USB device number 28 using xhci_hcd
+Oct 25 11:35:20 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:35:20 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:35:20 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:35:20 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:35:20 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:35:20 <redacted> kernel: usb 1-1: USB disconnect, device number 28
+Oct 25 11:35:21 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:22 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:22 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:35:23 <redacted> kernel: usb 1-1: new full-speed USB device number 31 using xhci_hcd
+Oct 25 11:35:33 <redacted> kernel: usb 1-1: device not accepting address 31, error -62
+Oct 25 11:35:33 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 11:35:34 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:34 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:35:36 <redacted> kernel: usb 1-1: new full-speed USB device number 33 using xhci_hcd
+Oct 25 11:35:38 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:39 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:39 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:35:40 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:40 <redacted> kernel: usb 1-1: new high-speed USB device number 36 using xhci_hcd
+Oct 25 11:35:40 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:35:40 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:35:40 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:35:40 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:35:40 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:35:40 <redacted> kernel: usb 1-1: USB disconnect, device number 36
+Oct 25 11:35:41 <redacted> kernel: usb 1-1: new high-speed USB device number 37 using xhci_hcd
+Oct 25 11:35:42 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:42 <redacted> kernel: usb 1-1: new high-speed USB device number 38 using xhci_hcd
+Oct 25 11:35:43 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:43 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:35:44 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:45 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:45 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:35:52 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:53 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:53 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:35:54 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:54 <redacted> kernel: usb 1-1: new high-speed USB device number 45 using xhci_hcd
+Oct 25 11:35:54 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:35:54 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:35:54 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:35:54 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:35:54 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:35:54 <redacted> kernel: usb 1-1: USB disconnect, device number 45
+Oct 25 11:35:54 <redacted> kernel: usb 1-1: new high-speed USB device number 46 using xhci_hcd
+Oct 25 11:35:55 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:56 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:56 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:35:57 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:35:58 <redacted> kernel: usb 1-1: new high-speed USB device number 49 using xhci_hcd
+Oct 25 11:35:58 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:35:58 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:35:58 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:35:58 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:35:58 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:36:00 <redacted> kernel: usb 1-1: USB disconnect, device number 49
+Oct 25 11:36:01 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:02 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:02 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:36:03 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:04 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:04 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:36:26 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:28 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:28 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:36:29 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:29 <redacted> kernel: usb 1-1: new high-speed USB device number 57 using xhci_hcd
+Oct 25 11:36:29 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:36:29 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:36:29 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:36:29 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:36:29 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:36:33 <redacted> kernel: usb 1-1: USB disconnect, device number 57
+Oct 25 11:36:33 <redacted> kernel: usb 1-1: new high-speed USB device number 58 using xhci_hcd
+Oct 25 11:36:34 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:35 <redacted> kernel: usb 1-1: new high-speed USB device number 59 using xhci_hcd
+Oct 25 11:36:36 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:36 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:36:37 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:38 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:38 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:36:50 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:51 <redacted> kernel: usb 1-1: new high-speed USB device number 63 using xhci_hcd
+Oct 25 11:36:52 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:36:52 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:36:52 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:36:52 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:36:52 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:36:54 <redacted> kernel: usb 1-1: USB disconnect, device number 63
+Oct 25 11:36:56 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:36:56 <redacted> kernel: usb 1-1: new full-speed USB device number 65 using xhci_hcd
+Oct 25 11:36:57 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:36:57 <redacted> kernel: usb 1-1: new high-speed USB device number 66 using xhci_hcd
+Oct 25 11:36:57 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:36:57 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:36:57 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:36:57 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:36:57 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:37:01 <redacted> kernel: usb 1-1: USB disconnect, device number 66
+Oct 25 11:37:02 <redacted> kernel: usb 1-1: new high-speed USB device number 67 using xhci_hcd
+Oct 25 11:37:03 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:37:03 <redacted> kernel: usb 1-1: new high-speed USB device number 68 using xhci_hcd
+Oct 25 11:37:03 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:37:03 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:37:03 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:37:03 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:37:03 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:37:07 <redacted> kernel: usb 1-1: USB disconnect, device number 68
+Oct 25 11:37:08 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:37:09 <redacted> kernel: usb 1-1: new high-speed USB device number 70 using xhci_hcd
+Oct 25 11:37:10 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:37:10 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:37:11 <redacted> kernel: usb 1-1: new full-speed USB device number 71 using xhci_hcd
+Oct 25 11:37:11 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:37:11 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:37:11 <redacted> kernel: usb 1-1: device not accepting address 71, error -71
+Oct 25 11:37:11 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 11:37:12 <redacted> kernel: usb 1-1: new full-speed USB device number 72 using xhci_hcd
+Oct 25 11:37:12 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:37:13 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:37:13 <redacted> kernel: usb 1-1: device not accepting address 72, error -71
+Oct 25 11:37:13 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 11:37:13 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:37:13 <redacted> kernel: usb 1-1: new full-speed USB device number 73 using xhci_hcd
+Oct 25 11:37:15 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:37:16 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:37:17 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:37:18 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:37:18 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:37:24 <redacted> kernel: usb 1-1: new high-speed USB device number 78 using xhci_hcd
+Oct 25 11:37:25 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:37:25 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:37:25 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:37:25 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:37:25 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:37:28 <redacted> kernel: usb 1-1: USB disconnect, device number 78
+Oct 25 11:37:29 <redacted> kernel: usb 1-1: new high-speed USB device number 79 using xhci_hcd
+Oct 25 11:37:30 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:37:30 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:37:30 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:37:30 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:37:30 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:41:00 <redacted> kernel: usb 1-1: USB disconnect, device number 79
+Oct 25 11:41:00 <redacted> kernel: usb 1-1: new high-speed USB device number 80 using xhci_hcd
+Oct 25 11:41:01 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:41:03 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:41:03 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:41:04 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:41:04 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:41:04 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:42:48 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:42:48 <redacted> kernel: usb 1-1: new high-speed USB device number 85 using xhci_hcd
+Oct 25 11:42:49 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:42:49 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:42:49 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:42:49 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:42:49 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:42:49 <redacted> kernel: usb 1-1: USB disconnect, device number 85
+Oct 25 11:42:50 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:42:51 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:42:51 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:42:52 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:42:53 <redacted> kernel: usb 1-1: new high-speed USB device number 89 using xhci_hcd
+Oct 25 11:42:53 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:42:53 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:42:53 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:42:53 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:42:53 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:42:54 <redacted> kernel: usb 1-1: USB disconnect, device number 89
+Oct 25 11:42:55 <redacted> kernel: usb 1-1: new full-speed USB device number 90 using xhci_hcd
+Oct 25 11:42:56 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:42:57 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:42:57 <redacted> kernel: usb 1-1: new full-speed USB device number 92 using xhci_hcd
+Oct 25 11:42:57 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:42:58 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:42:58 <redacted> kernel: usb 1-1: device not accepting address 92, error -71
+Oct 25 11:42:58 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 11:42:58 <redacted> kernel: usb 1-1: new full-speed USB device number 93 using xhci_hcd
+Oct 25 11:42:58 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:42:59 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:42:59 <redacted> kernel: usb 1-1: device not accepting address 93, error -71
+Oct 25 11:42:59 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 11:42:59 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:43:00 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:43:01 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:43:01 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:43:02 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:43:03 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:43:03 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:44:09 <redacted> kernel: usb 1-1: new full-speed USB device number 98 using xhci_hcd
+Oct 25 11:44:10 <redacted> kernel: usb 1-1: device descriptor read/64, error -71
+Oct 25 11:44:11 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:44:11 <redacted> kernel: usb 1-1: new full-speed USB device number 99 using xhci_hcd
+Oct 25 11:44:12 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:44:12 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:44:13 <redacted> kernel: usb 1-1: new full-speed USB device number 101 using xhci_hcd
+Oct 25 11:44:13 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:44:14 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:44:14 <redacted> kernel: usb 1-1: device not accepting address 101, error -71
+Oct 25 11:44:14 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 11:44:14 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:44:15 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:44:16 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:44:16 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:44:17 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:44:18 <redacted> kernel: usb 1-1: new full-speed USB device number 105 using xhci_hcd
+Oct 25 11:44:18 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:44:18 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:44:19 <redacted> kernel: usb 1-1: device not accepting address 105, error -71
+Oct 25 11:44:19 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 11:44:19 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:49:53 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:49:54 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:49:54 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:49:55 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: new high-speed USB device number 109 using xhci_hcd
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: USB disconnect, device number 109
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: new high-speed USB device number 110 using xhci_hcd
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: USB disconnect, device number 110
+Oct 25 11:49:56 <redacted> kernel: usb 1-1: new high-speed USB device number 111 using xhci_hcd
+Oct 25 11:49:57 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:49:57 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:49:57 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:49:57 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:49:57 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:49:57 <redacted> kernel: usb 1-1: USB disconnect, device number 111
+Oct 25 11:49:57 <redacted> kernel: usb 1-1: new high-speed USB device number 112 using xhci_hcd
+Oct 25 11:49:58 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:49:59 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:49:59 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:50:00 <redacted> kernel: usb 1-1: new high-speed USB device number 114 using xhci_hcd
+Oct 25 11:50:00 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:50:00 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:50:00 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:50:00 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:50:00 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:51:54 <redacted> kernel: usb 1-1: USB disconnect, device number 114
+Oct 25 11:51:54 <redacted> kernel: usb 1-1: new high-speed USB device number 115 using xhci_hcd
+Oct 25 11:51:56 <redacted> kernel: usb 1-1: new full-speed USB device number 116 using xhci_hcd
+Oct 25 11:51:57 <redacted> kernel: usb 1-1: device descriptor read/64, error -71
+Oct 25 11:51:57 <redacted> kernel: usb 1-1: device descriptor read/64, error -71
+Oct 25 11:51:58 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:51:59 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:51:59 <redacted> kernel: usb 1-1: new full-speed USB device number 118 using xhci_hcd
+Oct 25 11:51:59 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:51:59 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:51:59 <redacted> kernel: usb 1-1: device not accepting address 118, error -71
+Oct 25 11:51:59 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 11:51:59 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:52:00 <redacted> kernel: usb 1-1: new full-speed USB device number 119 using xhci_hcd
+Oct 25 11:52:01 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:52:01 <redacted> kernel: usb 1-1: new full-speed USB device number 120 using xhci_hcd
+Oct 25 11:52:02 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:52:02 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:52:03 <redacted> kernel: usb 1-1: new full-speed USB device number 121 using xhci_hcd
+Oct 25 11:52:03 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:52:03 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 11:52:03 <redacted> kernel: usb 1-1: device not accepting address 121, error -71
+Oct 25 11:52:03 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 11:52:04 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:52:04 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:52:25 <redacted> kernel: usb 1-1: new full-speed USB device number 123 using xhci_hcd
+Oct 25 11:52:26 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:52:26 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:52:27 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:52:28 <redacted> kernel: usb 1-1: new high-speed USB device number 126 using xhci_hcd
+Oct 25 11:52:28 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:52:28 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:52:28 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:52:28 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:52:28 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:52:28 <redacted> kernel: usb 1-1: USB disconnect, device number 126
+Oct 25 11:52:29 <redacted> kernel: usb 1-1: new high-speed USB device number 127 using xhci_hcd
+Oct 25 11:52:31 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:52:31 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:52:32 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:52:32 <redacted> kernel: usb 1-1: new high-speed USB device number 6 using xhci_hcd
+Oct 25 11:52:33 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:52:33 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:52:33 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:52:33 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:52:33 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:52:48 <redacted> kernel: usb 1-1: USB disconnect, device number 6
+Oct 25 11:52:49 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:52:50 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:52:51 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:52:52 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:52:52 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:54:23 <redacted> kernel: usb 1-1: new full-speed USB device number 11 using xhci_hcd
+Oct 25 11:54:24 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:54:25 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:54:25 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:54:26 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:54:27 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:54:27 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 11:54:35 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:54:36 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:54:36 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:54:37 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: new high-speed USB device number 18 using xhci_hcd
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: USB disconnect, device number 18
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: new high-speed USB device number 19 using xhci_hcd
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:54:37 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:54:39 <redacted> kernel: usb 1-1: USB disconnect, device number 19
+Oct 25 11:54:39 <redacted> kernel: usb 1-1: new high-speed USB device number 20 using xhci_hcd
+Oct 25 11:54:40 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:54:40 <redacted> kernel: usb 1-1: new high-speed USB device number 21 using xhci_hcd
+Oct 25 11:54:41 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:54:41 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 11:54:42 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:54:43 <redacted> kernel: usb 1-1: new high-speed USB device number 23 using xhci_hcd
+Oct 25 11:54:43 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 11:54:43 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 11:54:43 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 11:54:43 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 11:54:43 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 11:54:45 <redacted> kernel: usb 1-1: USB disconnect, device number 23
+Oct 25 11:54:45 <redacted> kernel: usb 1-1: new high-speed USB device number 24 using xhci_hcd
+Oct 25 11:54:46 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 11:54:46 <redacted> kernel: usb 1-1: new full-speed USB device number 25 using xhci_hcd
+Oct 25 14:07:56 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:07:57 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:07:57 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:07:58 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:07:59 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:07:59 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:08:44 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:08:45 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:08:45 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:08:46 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:08:47 <redacted> kernel: usb 1-1: new high-speed USB device number 33 using xhci_hcd
+Oct 25 14:08:47 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 14:08:47 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 14:08:47 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 14:08:47 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 14:08:47 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 14:08:47 <redacted> kernel: usb 1-1: USB disconnect, device number 33
+Oct 25 14:08:48 <redacted> kernel: usb 1-1: new high-speed USB device number 34 using xhci_hcd
+Oct 25 14:08:49 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:08:49 <redacted> kernel: usb 1-1: new high-speed USB device number 35 using xhci_hcd
+Oct 25 14:08:50 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:08:50 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:08:51 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:08:52 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:08:52 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:08:55 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:08:56 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:08:56 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:08:57 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:08:59 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:09:00 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:09:00 <redacted> kernel: usb 1-1: new full-speed USB device number 43 using xhci_hcd
+Oct 25 14:09:01 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:09:01 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:09:02 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:09:02 <redacted> kernel: usb 1-1: new full-speed USB device number 45 using xhci_hcd
+Oct 25 14:09:02 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:09:02 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:09:03 <redacted> kernel: usb 1-1: device not accepting address 45, error -71
+Oct 25 14:09:03 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:09:03 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:09:03 <redacted> kernel: usb 1-1: new full-speed USB device number 46 using xhci_hcd
+Oct 25 14:09:04 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:09:05 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:09:06 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:09:06 <redacted> kernel: usb 1-1: new full-speed USB device number 49 using xhci_hcd
+Oct 25 14:09:06 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:09:07 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:09:07 <redacted> kernel: usb 1-1: device not accepting address 49, error -71
+Oct 25 14:09:07 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:09:07 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:11:11 <redacted> kernel: usb 1-1: new high-speed USB device number 50 using xhci_hcd
+Oct 25 14:11:11 <redacted> kernel: usb 1-1: New USB device found, idVendor=0e8d, idProduct=2008, bcdDevice= 2.23
+Oct 25 14:11:11 <redacted> kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 25 14:11:11 <redacted> kernel: usb 1-1: Product: <redacted device>
+Oct 25 14:11:11 <redacted> kernel: usb 1-1: Manufacturer: INFINIX MOBILITY LIMITED
+Oct 25 14:11:11 <redacted> kernel: usb 1-1: SerialNumber: 06076370BD112778
+Oct 25 14:11:30 <redacted> kernel: usb 1-1: USB disconnect, device number 50
+Oct 25 14:11:31 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:32 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:32 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:11:33 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:34 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:11:36 <redacted> kernel: usb 1-1: new full-speed USB device number 55 using xhci_hcd
+Oct 25 14:11:36 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:37 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:37 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:11:38 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:38 <redacted> kernel: usb 1-1: new full-speed USB device number 58 using xhci_hcd
+Oct 25 14:11:38 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:11:39 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:11:39 <redacted> kernel: usb 1-1: device not accepting address 58, error -71
+Oct 25 14:11:39 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:11:39 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:11:40 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:41 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:41 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:11:42 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:43 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:11:45 <redacted> kernel: usb 1-1: new full-speed USB device number 63 using xhci_hcd
+Oct 25 14:11:46 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:46 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:11:47 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:47 <redacted> kernel: usb 1-1: new full-speed USB device number 66 using xhci_hcd
+Oct 25 14:11:47 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:11:47 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:11:47 <redacted> kernel: usb 1-1: device not accepting address 66, error -71
+Oct 25 14:11:47 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:11:47 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:11:48 <redacted> kernel: usb 1-1: new full-speed USB device number 67 using xhci_hcd
+Oct 25 14:11:49 <redacted> kernel: usb 1-1: device descriptor read/64, error -71
+Oct 25 14:11:50 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:11:51 <redacted> kernel: usb 1-1: new high-speed USB device number 70 using xhci_hcd
+Oct 25 14:11:51 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:11:52 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:11:52 <redacted> kernel: usb 1-1: device not accepting address 70, error -71
+Oct 25 14:11:52 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:11:53 <redacted> kernel: usb 1-1: new full-speed USB device number 71 using xhci_hcd
+Oct 25 14:11:54 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:55 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:11:56 <redacted> kernel: usb 1-1: new high-speed USB device number 74 using xhci_hcd
+Oct 25 14:11:56 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:11:56 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:11:56 <redacted> kernel: usb 1-1: device not accepting address 74, error -71
+Oct 25 14:11:56 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:11:58 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:59 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:11:59 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:00 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:00 <redacted> kernel: usb 1-1: new full-speed USB device number 78 using xhci_hcd
+Oct 25 14:12:00 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:00 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:00 <redacted> kernel: usb 1-1: device not accepting address 78, error -71
+Oct 25 14:12:00 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:12:00 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:01 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:02 <redacted> kernel: usb 1-1: new full-speed USB device number 80 using xhci_hcd
+Oct 25 14:12:02 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:03 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:03 <redacted> kernel: usb 1-1: new full-speed USB device number 82 using xhci_hcd
+Oct 25 14:12:03 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:03 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:03 <redacted> kernel: usb 1-1: device not accepting address 82, error -71
+Oct 25 14:12:03 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:12:03 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:05 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:06 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:06 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:07 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:08 <redacted> kernel: usb 1-1: new full-speed USB device number 86 using xhci_hcd
+Oct 25 14:12:08 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:08 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:08 <redacted> kernel: usb 1-1: device not accepting address 86, error -71
+Oct 25 14:12:08 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:12:08 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:10 <redacted> kernel: usb 1-1: new full-speed USB device number 87 using xhci_hcd
+Oct 25 14:12:10 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:12 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:13 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:13 <redacted> kernel: usb 1-1: new full-speed USB device number 90 using xhci_hcd
+Oct 25 14:12:13 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:13 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:13 <redacted> kernel: usb 1-1: device not accepting address 90, error -71
+Oct 25 14:12:13 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:12:13 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:15 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:16 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:16 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:17 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:18 <redacted> kernel: usb 1-1: new full-speed USB device number 94 using xhci_hcd
+Oct 25 14:12:18 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:18 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:18 <redacted> kernel: usb 1-1: device not accepting address 94, error -71
+Oct 25 14:12:18 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:12:18 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:20 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:20 <redacted> kernel: usb 1-1: new full-speed USB device number 96 using xhci_hcd
+Oct 25 14:12:21 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:21 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:22 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:23 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:24 <redacted> kernel: usb 1-1: new high-speed USB device number 100 using xhci_hcd
+Oct 25 14:12:25 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:27 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:27 <redacted> kernel: usb 1-1: new full-speed USB device number 102 using xhci_hcd
+Oct 25 14:12:27 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:27 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:27 <redacted> kernel: usb 1-1: device not accepting address 102, error -71
+Oct 25 14:12:27 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:12:27 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:29 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:29 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:30 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:30 <redacted> kernel: usb 1-1: new high-speed USB device number 106 using xhci_hcd
+Oct 25 14:12:30 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:31 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:31 <redacted> kernel: usb 1-1: device not accepting address 106, error -71
+Oct 25 14:12:31 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:32 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:33 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:33 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:34 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:34 <redacted> kernel: usb 1-1: new high-speed USB device number 110 using xhci_hcd
+Oct 25 14:12:34 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:34 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:35 <redacted> kernel: usb 1-1: device not accepting address 110, error -71
+Oct 25 14:12:35 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:37 <redacted> kernel: usb 1-1: new full-speed USB device number 112 using xhci_hcd
+Oct 25 14:12:38 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:38 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:39 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:40 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:41 <redacted> kernel: usb 1-1: new high-speed USB device number 116 using xhci_hcd
+Oct 25 14:12:42 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:42 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:43 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:44 <redacted> kernel: usb 1-1: new full-speed USB device number 118 using xhci_hcd
+Oct 25 14:12:44 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:44 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:44 <redacted> kernel: usb 1-1: device not accepting address 118, error -71
+Oct 25 14:12:44 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:12:44 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:45 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:46 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:46 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:47 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:48 <redacted> kernel: usb 1-1: new high-speed USB device number 122 using xhci_hcd
+Oct 25 14:12:48 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:48 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:48 <redacted> kernel: usb 1-1: device not accepting address 122, error -71
+Oct 25 14:12:48 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:49 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:51 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:51 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:52 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:53 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:54 <redacted> kernel: usb 1-1: new high-speed USB device number 2 using xhci_hcd
+Oct 25 14:12:55 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:55 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:12:56 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:12:56 <redacted> kernel: usb 1-1: new high-speed USB device number 6 using xhci_hcd
+Oct 25 14:12:56 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:57 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:12:57 <redacted> kernel: usb 1-1: device not accepting address 6, error -71
+Oct 25 14:12:57 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:12:59 <redacted> kernel: usb 1-1: new full-speed USB device number 8 using xhci_hcd
+Oct 25 14:13:00 <redacted> kernel: usb 1-1: device descriptor read/64, error -71
+Oct 25 14:13:00 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:01 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:01 <redacted> kernel: usb 1-1: new full-speed USB device number 10 using xhci_hcd
+Oct 25 14:13:01 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:01 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:02 <redacted> kernel: usb 1-1: device not accepting address 10, error -71
+Oct 25 14:13:02 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:13:02 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:03 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:03 <redacted> kernel: usb 1-1: new full-speed USB device number 12 using xhci_hcd
+Oct 25 14:13:04 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:04 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:05 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:06 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:08 <redacted> kernel: usb 1-1: new full-speed USB device number 15 using xhci_hcd
+Oct 25 14:13:09 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:09 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:10 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:11 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:12 <redacted> kernel: usb 1-1: new high-speed USB device number 20 using xhci_hcd
+Oct 25 14:13:13 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:13 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:14 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:14 <redacted> kernel: usb 1-1: new full-speed USB device number 22 using xhci_hcd
+Oct 25 14:13:14 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:14 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:15 <redacted> kernel: usb 1-1: device not accepting address 22, error -71
+Oct 25 14:13:15 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:13:15 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:16 <redacted> kernel: usb 1-1: new full-speed USB device number 23 using xhci_hcd
+Oct 25 14:13:17 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:18 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:19 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:19 <redacted> kernel: usb 1-1: new full-speed USB device number 26 using xhci_hcd
+Oct 25 14:13:19 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:19 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:20 <redacted> kernel: usb 1-1: device not accepting address 26, error -71
+Oct 25 14:13:20 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:13:20 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:21 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:22 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:22 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:23 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:24 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:27 <redacted> kernel: usb 1-1: new full-speed USB device number 32 using xhci_hcd
+Oct 25 14:13:27 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:28 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:28 <redacted> kernel: usb 1-1: new full-speed USB device number 34 using xhci_hcd
+Oct 25 14:13:28 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:28 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:28 <redacted> kernel: usb 1-1: device not accepting address 34, error -71
+Oct 25 14:13:28 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:13:28 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:30 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:31 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:33 <redacted> kernel: usb 1-1: new full-speed USB device number 38 using xhci_hcd
+Oct 25 14:13:33 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:33 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:33 <redacted> kernel: usb 1-1: device not accepting address 38, error -71
+Oct 25 14:13:33 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:13:33 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:35 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:36 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:36 <redacted> kernel: usb 1-1: new full-speed USB device number 42 using xhci_hcd
+Oct 25 14:13:36 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:36 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:37 <redacted> kernel: usb 1-1: device not accepting address 42, error -71
+Oct 25 14:13:37 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:13:37 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:38 <redacted> kernel: usb 1-1: new full-speed USB device number 43 using xhci_hcd
+Oct 25 14:13:39 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:39 <redacted> kernel: usb 1-1: new full-speed USB device number 44 using xhci_hcd
+Oct 25 14:13:39 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:40 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:40 <redacted> kernel: usb 1-1: new full-speed USB device number 46 using xhci_hcd
+Oct 25 14:13:40 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:40 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:40 <redacted> kernel: usb 1-1: device not accepting address 46, error -71
+Oct 25 14:13:40 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:13:40 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:42 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:43 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:43 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:44 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:44 <redacted> kernel: usb 1-1: new full-speed USB device number 50 using xhci_hcd
+Oct 25 14:13:44 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:44 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:44 <redacted> kernel: usb 1-1: device not accepting address 50, error -71
+Oct 25 14:13:44 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:13:44 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:45 <redacted> kernel: usb 1-1: new full-speed USB device number 51 using xhci_hcd
+Oct 25 14:13:46 <redacted> kernel: usb 1-1: device descriptor read/64, error -71
+Oct 25 14:13:47 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:47 <redacted> kernel: usb 1-1: new full-speed USB device number 52 using xhci_hcd
+Oct 25 14:13:47 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:48 <redacted> kernel: usb 1-1: new high-speed USB device number 54 using xhci_hcd
+Oct 25 14:13:48 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:48 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:49 <redacted> kernel: usb 1-1: device not accepting address 54, error -71
+Oct 25 14:13:49 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:51 <redacted> kernel: usb 1-1: new full-speed USB device number 56 using xhci_hcd
+Oct 25 14:13:52 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:52 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:53 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:54 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:55 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:55 <redacted> kernel: usb 1-1: new full-speed USB device number 60 using xhci_hcd
+Oct 25 14:13:55 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:56 <redacted> kernel: usb 1-1: new high-speed USB device number 62 using xhci_hcd
+Oct 25 14:13:56 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:56 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:13:57 <redacted> kernel: usb 1-1: device not accepting address 62, error -71
+Oct 25 14:13:57 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:13:57 <redacted> kernel: usb 1-1: new full-speed USB device number 63 using xhci_hcd
+Oct 25 14:13:58 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:13:58 <redacted> kernel: usb 1-1: new full-speed USB device number 64 using xhci_hcd
+Oct 25 14:13:58 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:13:59 <redacted> kernel: usb 1-1: new full-speed USB device number 65 using xhci_hcd
+Oct 25 14:13:59 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:14:00 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:14:00 <redacted> kernel: usb 1-1: device not accepting address 65, error -71
+Oct 25 14:14:00 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:14:01 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:14:01 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:14:40 <redacted> kernel: usb 1-1: new high-speed USB device number 67 using xhci_hcd
+Oct 25 14:14:41 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:14:42 <redacted> kernel: usb 1-1: new high-speed USB device number 68 using xhci_hcd
+Oct 25 14:14:43 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:14:43 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:14:44 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:14:44 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:14:44 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:18:54 <redacted> kernel: usb 1-1: new full-speed USB device number 71 using xhci_hcd
+Oct 25 14:18:55 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:18:56 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:18:58 <redacted> kernel: usb 1-1: new full-speed USB device number 74 using xhci_hcd
+Oct 25 14:18:58 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:18:58 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:18:58 <redacted> kernel: usb 1-1: device not accepting address 74, error -71
+Oct 25 14:18:58 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:18:58 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
+Oct 25 14:18:59 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:19:00 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:19:00 <redacted> kernel: usb usb1-port1: attempt power cycle
+Oct 25 14:19:01 <redacted> kernel: usb usb1-port1: Cannot enable. Maybe the USB cable is bad?
+Oct 25 14:19:01 <redacted> kernel: usb 1-1: new full-speed USB device number 78 using xhci_hcd
+Oct 25 14:19:01 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:19:02 <redacted> kernel: usb 1-1: Device not responding to setup address.
+Oct 25 14:19:02 <redacted> kernel: usb 1-1: device not accepting address 78, error -71
+Oct 25 14:19:02 <redacted> kernel: usb 1-1: WARN: invalid context state for evaluate context command.
+Oct 25 14:19:02 <redacted> kernel: usb usb1-port1: unable to enumerate USB device
