@@ -150,7 +150,6 @@ This Code of Conduct may be reviewed and updated as the Bugema Linux community g
 
 Changes should follow the project's governance process.
 
----
 
 **Bugema Linux**
 **Bugema Open Source Community (BOSC)**
