@@ -1,0 +1,15 @@
+ Static hostname: <redacted>
+       Icon name: computer-desktop
+         Chassis: desktop 🖥️
+      Machine ID: 4523f3e1e7df4d12aaa41f6a99a71dba
+         Boot ID: 8f1aee583254461a98c2c534c1c9f209
+Operating System: Ubuntu 26.04.1 LTS
+          Kernel: Linux 7.0.0-38-generic
+    Architecture: x86-64
+ Hardware Vendor: Dell Inc.
+  Hardware Model: OptiPlex Tower 7010
+    Hardware SKU: 0BCE
+Hardware Version: A01
+Firmware Version: 1.37.0
+   Firmware Date: Wed 2026-05-27
+    Firmware Age: 4month 4w 1d
