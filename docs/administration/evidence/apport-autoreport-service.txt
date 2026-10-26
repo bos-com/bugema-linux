@@ -1,0 +1,40 @@
+× apport-autoreport.service - Process error reports when automatic reporting is enabled
+     Loaded: loaded (/usr/lib/systemd/system/apport-autoreport.service; static)
+     Active: failed (Result: exit-code) since Mon 2026-10-26 10:36:39 CAT; 1h 26min ago
+TriggeredBy: ● apport-autoreport.timer
+             ● apport-autoreport.path
+    Process: 30657 ExecStart=/usr/share/apport/whoopsie-upload-all --timeout 20 (code=exited, status=2)
+   Main PID: 30657 (code=exited, status=2)
+        CPU: 630ms
+
+Oct 26 10:36:08 <redacted> systemd[1]: Starting apport-autoreport.service - Process error reports when automatic reporting is enabled...
+Oct 26 10:36:09 <redacted> whoopsie-upload-all[30657]: INFO:root:/var/crash/_opt_microsoft_msedge_msedge.1000.crash already marked for upload, skipping
+Oct 26 10:36:09 <redacted> whoopsie-upload-all[30657]: INFO:root:/var/crash/_usr_lib_x86_64-linux-gnu_ld-linux-x86-64.so.2.1000.crash already marked for upload, skipping
+Oct 26 10:36:09 <redacted> whoopsie-upload-all[30657]: INFO:root:Waiting for whoopsie to upload reports (timeout: 20 s)
+Oct 26 10:36:09 <redacted> whoopsie-upload-all[30657]: INFO:root:  missing (remaining: 20 s): /var/crash/_usr_lib_x86_64-linux-gnu_ld-linux-x86-64.so.2.1000.uploaded
+Oct 26 10:36:19 <redacted> whoopsie-upload-all[30657]: INFO:root:  missing (remaining: 10 s): /var/crash/_usr_lib_x86_64-linux-gnu_ld-linux-x86-64.so.2.1000.uploaded
+Oct 26 10:36:29 <redacted> whoopsie-upload-all[30657]: INFO:root:  missing (remaining: 0 s): /var/crash/_usr_lib_x86_64-linux-gnu_ld-linux-x86-64.so.2.1000.uploaded
+Oct 26 10:36:39 <redacted> systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Oct 26 10:36:39 <redacted> systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+Oct 26 10:36:39 <redacted> systemd[1]: Failed to start apport-autoreport.service - Process error reports when automatic reporting is enabled.
+-----JOURNAL-----
+Oct 26 07:36:03 <redacted> systemd[1]: Starting apport-autoreport.service - Process error reports when automatic reporting is enabled...
+Oct 26 07:36:04 <redacted> whoopsie-upload-all[12630]: INFO:root:/var/crash/_opt_microsoft_msedge_msedge.1000.crash already marked for upload, skipping
+Oct 26 07:36:04 <redacted> whoopsie-upload-all[12630]: INFO:root:/var/crash/_usr_lib_x86_64-linux-gnu_ld-linux-x86-64.so.2.1000.crash already marked for upload, skipping
+Oct 26 07:36:04 <redacted> whoopsie-upload-all[12630]: INFO:root:Waiting for whoopsie to upload reports (timeout: 20 s)
+Oct 26 07:36:04 <redacted> whoopsie-upload-all[12630]: INFO:root:  missing (remaining: 20 s): /var/crash/_usr_lib_x86_64-linux-gnu_ld-linux-x86-64.so.2.1000.uploaded
+Oct 26 07:36:14 <redacted> whoopsie-upload-all[12630]: INFO:root:  missing (remaining: 10 s): /var/crash/_usr_lib_x86_64-linux-gnu_ld-linux-x86-64.so.2.1000.uploaded
+Oct 26 07:36:24 <redacted> whoopsie-upload-all[12630]: INFO:root:  missing (remaining: 0 s): /var/crash/_usr_lib_x86_64-linux-gnu_ld-linux-x86-64.so.2.1000.uploaded
+Oct 26 07:36:34 <redacted> systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Oct 26 07:36:34 <redacted> systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+Oct 26 07:36:34 <redacted> systemd[1]: Failed to start apport-autoreport.service - Process error reports when automatic reporting is enabled.
+Oct 26 10:36:08 <redacted> systemd[1]: Starting apport-autoreport.service - Process error reports when automatic reporting is enabled...
+Oct 26 10:36:09 <redacted> whoopsie-upload-all[30657]: INFO:root:/var/crash/_opt_microsoft_msedge_msedge.1000.crash already marked for upload, skipping
+Oct 26 10:36:09 <redacted> whoopsie-upload-all[30657]: INFO:root:/var/crash/_usr_lib_x86_64-linux-gnu_ld-linux-x86-64.so.2.1000.crash already marked for upload, skipping
+Oct 26 10:36:09 <redacted> whoopsie-upload-all[30657]: INFO:root:Waiting for whoopsie to upload reports (timeout: 20 s)
+Oct 26 10:36:09 <redacted> whoopsie-upload-all[30657]: INFO:root:  missing (remaining: 20 s): /var/crash/_usr_lib_x86_64-linux-gnu_ld-linux-x86-64.so.2.1000.uploaded
+Oct 26 10:36:19 <redacted> whoopsie-upload-all[30657]: INFO:root:  missing (remaining: 10 s): /var/crash/_usr_lib_x86_64-linux-gnu_ld-linux-x86-64.so.2.1000.uploaded
+Oct 26 10:36:29 <redacted> whoopsie-upload-all[30657]: INFO:root:  missing (remaining: 0 s): /var/crash/_usr_lib_x86_64-linux-gnu_ld-linux-x86-64.so.2.1000.uploaded
+Oct 26 10:36:39 <redacted> systemd[1]: apport-autoreport.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Oct 26 10:36:39 <redacted> systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+Oct 26 10:36:39 <redacted> systemd[1]: Failed to start apport-autoreport.service - Process error reports when automatic reporting is enabled.
