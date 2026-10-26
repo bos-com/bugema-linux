@@ -1,0 +1,171 @@
+Oct 26 06:35:54 <redacted> kernel: x86/cpu: SGX disabled or unsupported by BIOS.
+Oct 26 06:35:54 <redacted> kernel: MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+Oct 26 06:35:54 <redacted> kernel: MMIO Stale Data CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/processor_mmio_stale_data.html for more details.
+Oct 26 06:35:54 <redacted> kernel: VMSCAPE: SMT on, STIBP is required for full protection. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/vmscape.html for more details.
+Oct 26 06:35:54 <redacted> kernel: hpet_acpi_add: no address or irqs in _CRS
+Oct 26 06:35:54 <redacted> kernel: i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+Oct 26 06:35:54 <redacted> kernel: i8042: Warning: Keylock active
+Oct 26 06:35:54 <redacted> kernel: ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+Oct 26 06:35:54 <redacted> kernel: wmi_bus wmi_bus-PNP0C14:01: [Firmware Bug]: WQBC data block query control method not found
+Oct 26 06:35:55 <redacted> lvm[1143]: PV /dev/dm-0 online, VG ubuntu-vg is complete.
+Oct 26 06:35:55 <redacted> lvm[1143]: VG ubuntu-vg finished
+Oct 26 06:35:55 <redacted> kernel: ACPI Warning: \_SB.IETM._TRT: Return Package has no elements (empty) (20251212/nsprepkg-94)
+Oct 26 06:35:55 <redacted> kernel: ACPI Warning: SystemMemory range 0x00000000FE028000-0x00000000FE0281FF conflicts with OpRegion 0x00000000FE028000-0x00000000FE028207 (\_SB.PCI0.GEXP.BAR0) (20251212/utaddress-204)
+Oct 26 06:35:55 <redacted> kernel: intel-lpss INT3446:00: probe with driver intel-lpss failed with error -16
+Oct 26 06:35:57 <redacted> kernel: Bluetooth: hci0: Failed to send firmware data (-19)
+Oct 26 06:35:57 <redacted> (uetoothd)[1696]: bluetooth.service: ConfigurationDirectory 'bluetooth' already exists but the mode is different. (File system: 755 ConfigurationDirectoryMode: 555)
+Oct 26 06:35:57 <redacted> systemd[1]: Dependency failed for sssd-nss.socket - SSSD NSS Service responder socket.
+Oct 26 06:35:57 <redacted> systemd[1]: Dependency failed for sssd-autofs.socket - SSSD AutoFS Service responder socket.
+Oct 26 06:35:57 <redacted> systemd[1]: Dependency failed for sssd-pac.socket - SSSD PAC Service responder socket.
+Oct 26 06:35:57 <redacted> systemd[1]: Dependency failed for sssd-pam-priv.socket - SSSD PAM Service responder private socket.
+Oct 26 06:35:57 <redacted> systemd[1]: Dependency failed for sssd-pam.socket - SSSD PAM Service responder socket.
+Oct 26 06:35:57 <redacted> systemd[1]: Dependency failed for sssd-ssh.socket - SSSD SSH Service responder socket.
+Oct 26 06:35:57 <redacted> systemd[1]: Dependency failed for sssd-sudo.socket - SSSD Sudo Service responder socket.
+Oct 26 06:35:57 <redacted> (cron)[1724]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Oct 26 06:35:57 <redacted> bluetoothd[1696]: src/plugin.c:plugin_init() System does not support csip plugin
+Oct 26 06:35:57 <redacted> bluetoothd[1696]: profiles/audio/micp.c:micp_init() D-Bus experimental not enabled
+Oct 26 06:35:57 <redacted> bluetoothd[1696]: src/plugin.c:plugin_init() System does not support micp plugin
+Oct 26 06:35:57 <redacted> bluetoothd[1696]: src/plugin.c:plugin_init() System does not support vcp plugin
+Oct 26 06:35:57 <redacted> bluetoothd[1696]: src/plugin.c:plugin_init() System does not support mcp plugin
+Oct 26 06:35:57 <redacted> bluetoothd[1696]: src/plugin.c:plugin_init() System does not support bass plugin
+Oct 26 06:35:57 <redacted> bluetoothd[1696]: src/plugin.c:plugin_init() System does not support bap plugin
+Oct 26 06:35:57 <redacted> kernel: warning: `atop' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+Oct 26 06:35:57 <redacted> gnome-remote-de[1702]: Init TPM credentials failed because Failed to initialize transmission interface context: tcti:IO failure, using GKeyFile as fallback
+Oct 26 06:35:58 <redacted> thermald[1734]: Unable to find a zone for B0D4
+Oct 26 06:35:58 <redacted> thermald[1734]: Unable to find a zone for SEN1
+Oct 26 06:35:58 <redacted> thermald[1734]: Unable to find a zone for SEN1
+Oct 26 06:35:58 <redacted> thermald[1734]: Unable to find a zone for SEN1
+Oct 26 06:35:58 <redacted> thermald[1734]: Unable to find a zone for SEN1
+Oct 26 06:35:58 <redacted> thermald[1734]: Unable to find a zone for SEN1
+Oct 26 06:35:58 <redacted> thermald[1734]: Unable to find a zone for TMEM
+Oct 26 06:35:58 <redacted> thermald[1734]: Unable to find a zone for SEN2
+Oct 26 06:35:59 <redacted> generate[2037]: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
+Oct 26 06:36:01 <redacted> kernel: kauditd_printk_skb: 169 callbacks suppressed
+Oct 26 06:36:01 <redacted> systemd[1]: bettercap.service: Failed with result 'exit-code'.
+Oct 26 06:36:02 <redacted> kernel: set_capacity_and_notify: 17 callbacks suppressed
+Oct 26 06:36:03 <redacted> pipewire[2311]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Oct 26 06:36:03 <redacted> pipewire[2353]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Oct 26 06:36:04 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=120 pid=2399 comm="/usr/libexec/gnome-session-binary --autostart /usr" label="unconfined")
+Oct 26 06:36:04 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Oct 26 06:36:04 <redacted> gnome-session-binary[2399]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Oct 26 06:36:04 <redacted> wireplumber[2359]: <WpPortalPermissionStorePlugin:0x5a9d39090710> Failed to call Lookup: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for camera
+Oct 26 06:36:04 <redacted> wireplumber[2359]: <WpPortalPermissionStorePlugin:0x5a9d39090710> Failed to call Lookup: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for camera
+Oct 26 06:36:07 <redacted> kernel: Bluetooth: hci0: FW download error recovery failed (-110)
+Oct 26 06:36:07 <redacted> systemd[1]: kerneloops.service: Found left-over process 2616 (kerneloops) in control group while starting unit. Ignoring.
+Oct 26 06:36:07 <redacted> systemd[1]: kerneloops.service: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Oct 26 06:36:07 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activating service name='org.a11y.Bus' requested by ':1.4' (uid=120 pid=2458 comm="/usr/bin/gnome-shell" label="unconfined")
+Oct 26 06:36:07 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Successfully activated service 'org.a11y.Bus'
+Oct 26 06:36:07 <redacted> (rneloops)[2617]: kerneloops.service: Referenced but unset environment variable evaluates to an empty string: DAEMON_ARGS
+Oct 26 06:36:07 <redacted> systemd[1]: vmware.service: Failed with result 'exit-code'.
+Oct 26 06:36:07 <redacted> systemd[1]: Failed to start vmware.service - LSB: This service starts and stops VMware services.
+Oct 26 06:36:07 <redacted> /usr/libexec/gdm-wayland-session[2632]: dbus-daemon[2632]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=120 pid=2458 comm="/usr/bin/gnome-shell" label="unconfined")
+Oct 26 06:36:07 <redacted> /usr/libexec/gdm-wayland-session[2632]: dbus-daemon[2632]: Successfully activated service 'org.a11y.atspi.Registry'
+Oct 26 06:36:10 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activating service name='org.gnome.Shell.Screencast' requested by ':1.3' (uid=120 pid=2458 comm="/usr/bin/gnome-shell" label="unconfined")
+Oct 26 06:36:10 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.3' (uid=120 pid=2458 comm="/usr/bin/gnome-shell" label="unconfined")
+Oct 26 06:36:10 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Oct 26 06:36:10 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activating service name='org.gnome.Shell.Notifications' requested by ':1.3' (uid=120 pid=2458 comm="/usr/bin/gnome-shell" label="unconfined")
+Oct 26 06:36:11 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Successfully activated service 'org.gnome.Shell.Notifications'
+Oct 26 06:36:11 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activating service name='org.freedesktop.portal.IBus' requested by ':1.25' (uid=120 pid=3190 comm="ibus-daemon --panel disable" label="unconfined")
+Oct 26 06:36:11 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activating service name='org.freedesktop.systemd1' requested by ':1.10' (uid=120 pid=3145 comm="/usr/libexec/gsd-sharing" label="unconfined")
+Oct 26 06:36:11 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Oct 26 06:36:11 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Successfully activated service 'org.freedesktop.portal.IBus'
+Oct 26 06:36:11 <redacted> gsd-sharing[3145]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Oct 26 06:36:11 <redacted> gsd-sharing[3145]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Oct 26 06:36:12 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Successfully activated service 'org.gnome.Shell.Screencast'
+Oct 26 06:36:12 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activating service name='ca.desrt.dconf' requested by ':1.3' (uid=120 pid=2458 comm="/usr/bin/gnome-shell" label="unconfined")
+Oct 26 06:36:12 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Successfully activated service 'ca.desrt.dconf'
+Oct 26 06:36:12 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activating service name='org.freedesktop.portal.IBus' requested by ':1.35' (uid=120 pid=3394 comm="ibus-daemon --panel disable -r --xim" label="unconfined")
+Oct 26 06:36:12 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Successfully activated service 'org.freedesktop.portal.IBus'
+Oct 26 06:36:13 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activating service name='org.gnome.ScreenSaver' requested by ':1.24' (uid=120 pid=3232 comm="/usr/libexec/gsd-power" label="unconfined")
+Oct 26 06:36:13 <redacted> gsd-media-keys[3191]: Failed to grab accelerator for keybinding settings:playback-repeat
+Oct 26 06:36:13 <redacted> gsd-media-keys[3191]: Failed to grab accelerator for keybinding settings:hibernate
+Oct 26 06:36:13 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Successfully activated service 'org.gnome.ScreenSaver'
+Oct 26 06:36:17 <redacted> kernel: Bluetooth: hci0: Reading supported features failed (-110)
+Oct 26 06:36:17 <redacted> kernel: Bluetooth: hci0: HCI LE Coded PHY feature bit is set, but its usage is not supported.
+Oct 26 06:36:40 <redacted> gdm-password][3495]: gkr-pam: unable to locate daemon control file
+Oct 26 06:36:41 <redacted> gdm3[2174]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Oct 26 06:36:41 <redacted> gsd-media-keys[3191]: Unable to get default source
+Oct 26 06:36:41 <redacted> gsd-media-keys[3191]: Unable to get default sink
+Oct 26 06:36:41 <redacted> wireplumber[2314]: <WpPortalPermissionStorePlugin:0x587c77287ea0> Failed to call Lookup: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for camera
+Oct 26 06:36:41 <redacted> wireplumber[2314]: <WpPortalPermissionStorePlugin:0x587c77287ea0> Failed to call Lookup: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for camera
+Oct 26 06:36:42 <redacted> gnome-keyring-daemon[3683]: discover_other_daemon: 1
+Oct 26 06:36:42 <redacted> gnome-keyring-daemon[3686]: discover_other_daemon: 1
+Oct 26 06:36:42 <redacted> systemd[2145]: app-gnome-gnome\x2dkeyring\x2dpkcs11-3676.scope: No PIDs left to attach to the scope's control group, refusing.
+Oct 26 06:36:42 <redacted> systemd[2145]: app-gnome-gnome\x2dkeyring\x2dpkcs11-3676.scope: Failed with result 'resources'.
+Oct 26 06:36:42 <redacted> systemd[2145]: Failed to start app-gnome-gnome\x2dkeyring\x2dpkcs11-3676.scope - Application launched by gnome-session-binary.
+Oct 26 06:36:42 <redacted> systemd[2145]: app-gnome-gnome\x2dkeyring\x2dsecrets-3674.scope: No PIDs left to attach to the scope's control group, refusing.
+Oct 26 06:36:42 <redacted> systemd[2145]: app-gnome-gnome\x2dkeyring\x2dsecrets-3674.scope: Failed with result 'resources'.
+Oct 26 06:36:42 <redacted> systemd[2145]: Failed to start app-gnome-gnome\x2dkeyring\x2dsecrets-3674.scope - Application launched by gnome-session-binary.
+Oct 26 06:36:42 <redacted> gnome-keyring-daemon[3688]: discover_other_daemon: 1
+Oct 26 06:36:42 <redacted> systemd[2145]: app-gnome-xdg\x2duser\x2ddirs-3690.scope: No PIDs left to attach to the scope's control group, refusing.
+Oct 26 06:36:42 <redacted> systemd[2145]: app-gnome-xdg\x2duser\x2ddirs-3690.scope: Failed with result 'resources'.
+Oct 26 06:36:42 <redacted> systemd[2145]: Failed to start app-gnome-xdg\x2duser\x2ddirs-3690.scope - Application launched by gnome-session-binary.
+Oct 26 06:36:45 <redacted> systemd[2145]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+Oct 26 06:36:45 <redacted> gnome-shell[3691]: Gio.UnixInputStream has been moved to a separate platform-specific library. Please update your code to use GioUnix.InputStream instead.
+                                            0 inhibit() ["resource:///org/gnome/shell/misc/loginManager.js":209:8]
+                                            1 InterpretGeneratorResume() ["self-hosted":1461:33]
+                                            2 AsyncFunctionNext() ["self-hosted":852:26]
+                                            3 anonymous() ["resource:///org/gnome/shell/ui/init.js":21:19]
+Oct 26 06:36:45 <redacted> systemd[2145]: app-gnome-spice\x2dvdagent-3888.scope: No PIDs left to attach to the scope's control group, refusing.
+Oct 26 06:36:45 <redacted> systemd[2145]: app-gnome-spice\x2dvdagent-3888.scope: Failed with result 'resources'.
+Oct 26 06:36:45 <redacted> systemd[2145]: Failed to start app-gnome-spice\x2dvdagent-3888.scope - Application launched by gnome-session-binary.
+Oct 26 06:36:45 <redacted> at-spi2-registr[3804]: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+Oct 26 06:36:45 <redacted> at-spi2-registr[3804]: Unable to register client with session manager
+Oct 26 06:36:49 <redacted> gsd-media-keys[3879]: Failed to grab accelerator for keybinding settings:playback-repeat
+Oct 26 06:36:49 <redacted> gsd-media-keys[3879]: Failed to grab accelerator for keybinding settings:hibernate
+Oct 26 06:36:49 <redacted> gnome-shell[2458]: Connection to xwayland lost
+Oct 26 06:36:49 <redacted> gnome-shell[2458]: Xwayland terminated, exiting since it was mandatory
+Oct 26 06:36:49 <redacted> gnome-shell[2458]: JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpectedly
+                                            @resource:///org/gnome/shell/ui/init.js:21:20
+Oct 26 06:36:49 <redacted> /usr/libexec/gdm-wayland-session[2390]: dbus-daemon[2390]: [session uid=120 pid=2390] Activating service name='org.freedesktop.systemd1' requested by ':1.10' (uid=120 pid=3145 comm="/usr/libexec/gsd-sharing" label="unconfined")
+Oct 26 06:36:49 <redacted> gdm3[2174]: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Oct 26 06:36:50 <redacted> systemd[2145]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+Oct 26 06:36:59 <redacted> systemd[2206]: xdg-permission-store.service: Failed with result 'exit-code'.
+Oct 26 06:36:59 <redacted> systemd[2206]: xdg-document-portal.service: Failed with result 'exit-code'.
+Oct 26 06:37:25 <redacted> gnome-shell[3691]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+Oct 26 06:38:29 <redacted> kernel: workqueue: delayed_fput hogged CPU for >13333us 4 times, consider switching to WQ_UNBOUND
+Oct 26 06:38:34 <redacted> kernel: workqueue: delayed_fput hogged CPU for >13333us 5 times, consider switching to WQ_UNBOUND
+Oct 26 06:39:21 <redacted> kernel: workqueue: delayed_fput hogged CPU for >13333us 7 times, consider switching to WQ_UNBOUND
+Oct 26 06:39:59 <redacted> gnome-shell[3691]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+Oct 26 06:40:01 <redacted> io.snapcraft.Settings[6174]: userd.go:93: Starting snap userd
+Oct 26 06:59:11 <redacted> kernel: workqueue: delayed_fput hogged CPU for >13333us 11 times, consider switching to WQ_UNBOUND
+Oct 26 07:36:34 <redacted> systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+Oct 26 07:36:34 <redacted> systemd[1]: Failed to start apport-autoreport.service - Process error reports when automatic reporting is enabled.
+Oct 26 07:39:02 <redacted> kernel: workqueue: delayed_fput hogged CPU for >13333us 19 times, consider switching to WQ_UNBOUND
+Oct 26 07:50:16 <redacted> NetworkManager[1803]: <warn>  [1792993816.5621] device (wlp2s0): link timed out.
+Oct 26 07:50:16 <redacted> NetworkManager[1803]: <warn>  [1792993816.5654] device (wlp2s0): Activation: failed for connection '<redacted>'
+Oct 26 07:50:18 <redacted> gnome-shell[3691]: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.Failed: Set global engine failed: Operation was cancelled
+                                            
+                                            Stack trace:
+                                              _promisify/proto[asyncFunc]/</<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:453:45
+                                              @resource:///org/gnome/shell/ui/init.js:21:20
+                                              ### Promise created here: ###
+                                              _setEngine@resource:///org/gnome/shell/misc/ibusManager.js:291:30
+                                              setEngine@resource:///org/gnome/shell/misc/ibusManager.js:314:24
+                                              activateInputSource@resource:///org/gnome/shell/ui/status/keyboard.js:527:31
+                                              _callHandlers@resource:///org/gnome/gjs/modules/core/_signals.js:130:42
+                                              _emit@resource:///org/gnome/gjs/modules/core/_signals.js:119:10
+                                              activate@resource:///org/gnome/shell/ui/status/keyboard.js:68:14
+                                              _inputSourcesChanged@resource:///org/gnome/shell/ui/status/keyboard.js:661:33
+                                              reload@resource:///org/gnome/shell/ui/status/keyboard.js:396:14
+                                              _ibusSetContentType@resource:///org/gnome/shell/ui/status/keyboard.js:736:14
+                                              _callHandlers@resource:///org/gnome/gjs/modules/core/_signals.js:130:42
+                                              _emit@resource:///org/gnome/gjs/modules/core/_signals.js:119:10
+                                              _setContentType@resource:///org/gnome/shell/misc/ibusManager.js:266:14
+                                              @resource:///org/gnome/shell/ui/init.js:21:20
+                                              
+Oct 26 07:50:40 <redacted> gnome-shell[3691]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+Oct 26 07:50:42 <redacted> NetworkManager[1803]: <warn>  [1792993842.5627] device (wlp2s0): Activation: (wifi) association took too long, failing activation
+Oct 26 07:50:42 <redacted> NetworkManager[1803]: <warn>  [1792993842.5665] device (wlp2s0): Activation: failed for connection '<redacted>'
+Oct 26 07:50:59 <redacted> gnome-shell[3691]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+Oct 26 07:50:59 <redacted> gvfsd-wsdd[14619]: Failed to spawn the wsdd daemon: Failed to execute child process “wsdd” (No such file or directory)
+Oct 26 07:50:59 <redacted> gvfsd-network[14602]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Oct 26 07:51:10 <redacted> NetworkManager[1803]: <warn>  [1792993870.5622] device (wlp2s0): Activation: (wifi) association took too long, failing activation
+Oct 26 07:51:10 <redacted> NetworkManager[1803]: <warn>  [1792993870.5645] device (wlp2s0): Activation: failed for connection '<redacted>'
+Oct 26 07:51:14 <redacted> generate[14658]: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
+Oct 26 07:51:37 <redacted> NetworkManager[1803]: <warn>  [1792993897.5625] device (wlp2s0): Activation: (wifi) association took too long, failing activation
+Oct 26 07:51:37 <redacted> NetworkManager[1803]: <warn>  [1792993897.5663] device (wlp2s0): Activation: failed for connection '<redacted>'
+Oct 26 08:17:07 <redacted> kernel: workqueue: delayed_fput hogged CPU for >13333us 35 times, consider switching to WQ_UNBOUND
+Oct 26 09:37:55 <redacted> update-notifier[4976]: g_object_get_data: assertion 'G_IS_OBJECT (object)' failed
+Oct 26 10:36:39 <redacted> systemd[1]: apport-autoreport.service: Failed with result 'exit-code'.
+Oct 26 10:36:39 <redacted> systemd[1]: Failed to start apport-autoreport.service - Process error reports when automatic reporting is enabled.
