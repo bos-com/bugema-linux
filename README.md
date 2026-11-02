@@ -184,16 +184,34 @@ The project welcomes contributions from:
 * Researchers
 * Alumni
 * Partner institutions and communities
-Contributions will be managed through GitHub issues and pull requests.
+
+Contributions are managed through GitHub issues and pull requests.
+
+## Contributing
 
 Before contributing, please read:
+
+* `CONTRIBUTING.md`
+* `CODE_OF_CONDUCT.md`
 * `GOVERNANCE.md`
 * `SECURITY.md`
 
 These documents will be added as the project governance framework is established.
 
+### How to contribute
+
+1. Check the [Issues](../../issues) tab for an open task, or open a new issue to propose your idea.
+2. Fork the repository and clone your fork.
+3. Create a feature branch (for example, `git checkout -b add-install-guide`).
+4. Make your changes and commit them with a clear message.
+5. Push your branch and open a pull request.
+6. Respond to peer and maintainer review comments.
+
+Please avoid committing directly to the `main` branch.
+
 ## License
-See the [LICENSE](LICENSE) file for details.
+
+Bugema Linux is released under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ## Maintained By
 
@@ -204,13 +222,3 @@ Uganda
 ---
 
 > **Bugema Linux: Learn. Build. Share. Innovate.**
-
-Bugema Linux is released under the **MIT License**.
-
-
-* `CONTRIBUTING.md`
-* `CODE_OF_CONDUCT.md`
-
-## Contribution
-
-
