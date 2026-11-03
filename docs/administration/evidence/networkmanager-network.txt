@@ -1,0 +1,40 @@
+DEVICE          TYPE      STATE                   CONNECTION         
+enp0s31f6       ethernet  connected               Wired connection 1 
+wlp2s0          wifi      connected               <redacted>            
+lo              loopback  connected (externally)  lo                 
+docker0         bridge    connected (externally)  docker0            
+p2p-dev-wlp2s0  wifi-p2p  disconnected            --                 
+-----NM-STATUS-----
+● NetworkManager.service - Network Manager
+     Loaded: loaded (/usr/lib/systemd/system/NetworkManager.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2026-10-26 06:36:01 CAT; 5h 27min ago
+       Docs: man:NetworkManager(8)
+   Main PID: 1803 (NetworkManager)
+      Tasks: 4 (limit: 7784)
+     Memory: 10.0M (peak: 31.5M swap: 1.1M swap peak: 1.1M)
+        CPU: 29.517s
+     CGroup: /system.slice/NetworkManager.service
+             └─1803 /usr/sbin/NetworkManager --no-daemon
+
+Oct 26 11:42:27 <redacted> NetworkManager[1803]: <info>  [1793007747.7285] dhcp4 (enp0s31f6): activation: beginning transaction (timeout in 45 seconds)
+Oct 26 11:42:29 <redacted> NetworkManager[1803]: <info>  [1793007749.1147] dhcp6 (enp0s31f6): activation: beginning transaction (timeout in 45 seconds)
+Oct 26 11:42:29 <redacted> NetworkManager[1803]: <info>  [1793007749.1249] dhcp6 (enp0s31f6): state changed new lease
+Oct 26 11:42:29 <redacted> NetworkManager[1803]: <info>  [1793007749.1407] device (enp0s31f6): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 26 11:42:29 <redacted> NetworkManager[1803]: <info>  [1793007749.2162] device (enp0s31f6): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 26 11:42:29 <redacted> NetworkManager[1803]: <info>  [1793007749.2169] device (enp0s31f6): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 26 11:42:29 <redacted> NetworkManager[1803]: <info>  [1793007749.2198] device (enp0s31f6): Activation: successful, device activated.
+Oct 26 11:42:29 <redacted> NetworkManager[1803]: <info>  [1793007749.7574] dhcp4 (enp0s31f6): state changed new lease, address=<redacted>, acd pending
+Oct 26 11:42:29 <redacted> NetworkManager[1803]: <info>  [1793007749.8661] dhcp4 (enp0s31f6): state changed new lease, address=<redacted>
+Oct 26 11:42:29 <redacted> NetworkManager[1803]: <info>  [1793007749.8678] policy: set 'Wired connection 1' (enp0s31f6) as default for IPv4 routing and DNS
+-----NM-JOURNAL-----
+Oct 26 06:35:59 <redacted> generate[2037]: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
+Oct 26 07:50:16 <redacted> NetworkManager[1803]: <warn>  [1792993816.5621] device (wlp2s0): link timed out.
+Oct 26 07:50:16 <redacted> NetworkManager[1803]: <warn>  [1792993816.5654] device (wlp2s0): Activation: failed for connection '<redacted>'
+Oct 26 07:50:42 <redacted> NetworkManager[1803]: <warn>  [1792993842.5627] device (wlp2s0): Activation: (wifi) association took too long, failing activation
+Oct 26 07:50:42 <redacted> NetworkManager[1803]: <warn>  [1792993842.5665] device (wlp2s0): Activation: failed for connection '<redacted>'
+Oct 26 07:50:59 <redacted> gvfsd-network[14602]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Oct 26 07:51:10 <redacted> NetworkManager[1803]: <warn>  [1792993870.5622] device (wlp2s0): Activation: (wifi) association took too long, failing activation
+Oct 26 07:51:10 <redacted> NetworkManager[1803]: <warn>  [1792993870.5645] device (wlp2s0): Activation: failed for connection '<redacted>'
+Oct 26 07:51:14 <redacted> generate[14658]: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
+Oct 26 07:51:37 <redacted> NetworkManager[1803]: <warn>  [1792993897.5625] device (wlp2s0): Activation: (wifi) association took too long, failing activation
+Oct 26 07:51:37 <redacted> NetworkManager[1803]: <warn>  [1792993897.5663] device (wlp2s0): Activation: failed for connection '<redacted>'

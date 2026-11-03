@@ -1,0 +1,14 @@
+ Static hostname: <redacted>
+ Pretty hostname: <redacted>
+       Icon name: computer-laptop
+         Chassis: laptop 💻
+      Machine ID: f955dc0c80874562b438162a255fb4e0
+         Boot ID: 0108960fca284ad79417017d0bcd9c87
+Operating System: Ubuntu 24.04.4 LTS
+          Kernel: Linux 7.0.0-31-generic
+    Architecture: x86-64
+ Hardware Vendor: Dell Inc.
+  Hardware Model: Latitude 7390
+Firmware Version: 1.44.0
+   Firmware Date: Tue 2025-04-08
+    Firmware Age: 1y 6month 2w 4d
