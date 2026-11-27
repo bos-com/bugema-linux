@@ -94,6 +94,17 @@ bugema-linux/
 └── README.md
 ```
 
+The outline above describes the intended project layout. At the current foundation stage, the repository contains the project policy documents, `.github/`, and `docs/architecture/`; the remaining directories will be added as the corresponding work is implemented.
+
+The architecture decisions already documented are:
+
+* [System architecture](docs/architecture/system-architecture.md)
+* [ADR-001: Use Ubuntu 26.04 LTS as the base distribution](docs/architecture/adr/ADR-001-ubuntu-2604-lts.md)
+* [ADR-002: Use Xfce 4.20 as the default desktop](docs/architecture/adr/ADR-002-xfce-420-desktop.md)
+* [ADR-003: Use APT and .deb packages](docs/architecture/adr/ADR-003-apt-deb-package-management.md)
+* [ADR-004: Adopt an offline-first architecture](docs/architecture/adr/ADR-004-offline-first-architecture.md)
+* [ADR-005: Adopt a defense-in-depth security architecture](docs/architecture/adr/ADR-005-security-architecture.md)
+
 ## Open Source Systems Course Integration
 
 Bugema Linux will provide a practical environment for the **Open Source Systems** course.
@@ -187,10 +198,12 @@ The project welcomes contributions from:
 Contributions will be managed through GitHub issues and pull requests.
 
 Before contributing, please read:
-* `GOVERNANCE.md`
-* `SECURITY.md`
+* [CONTRIBUTING.md](CONTRIBUTING.md)
+* [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+* [GOVERNANCE.md](GOVERNANCE.md)
+* [SECURITY.md](SECURITY.md)
 
-These documents will be added as the project governance framework is established.
+These documents describe the contribution process, community expectations, project governance, and security reporting procedure.
 
 ## License
 See the [LICENSE](LICENSE) file for details.
@@ -207,10 +220,7 @@ Uganda
 
 Bugema Linux is released under the **MIT License**.
 
-
-* `CONTRIBUTING.md`
-* `CODE_OF_CONDUCT.md`
-
 ## Contribution
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for branch naming, commit conventions, and the Pull Request process.
 
